@@ -1,0 +1,10 @@
+2.Explain Types Of Software ?
+Ans-	
+	(i)Application Software
+	(ii)middleware
+	(iii)System Software
+	(iv)programming Software
+	(v)Driver Software
+
+(i)Application Software:
+				
