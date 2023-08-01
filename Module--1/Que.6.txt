@@ -1,0 +1,4 @@
+What is Use case Diagram? Create a use-case on bill payment on paytm.
+
+Ans--- Use Case Diagram is Used to give Grapical Diagram of users thoghts and ideas.
+	
