@@ -1,59 +1,44 @@
 #include<stdio.h>
-void Addition()
+int Addition(int a,int b)
 {
-	int a,b;
-	printf("Enter First Number :");
-	scanf("%d",&a);
-	printf("Enter Second Number :");
-	scanf("%d",&b);
-	printf("Addition Of Digits Is :%d",a+b);
+	printf("Addition Is :%d",a+=b);
 }
-void Subtraction()
+int Subtraction(int a,int b)
 {
-	int a,b;
-	printf("Enter First Number :");
-	scanf("%d",&a);
-	printf("Enter Second Number :");
-	scanf("%d",&b);
 	printf("Subtraction Of Digits Is :%d",a-b);
 }
-void Multiplication()
+int Multiplication(int a,int b)
 {
-	int a,b;
-	printf("Enter First Number :");
-	scanf("%d",&a);
-	printf("Enter Second Number :");
-	scanf("%d",&b);
 	printf("Multiplication Of Digits Is :%d",a*b);
 }
-void Divison()
+int Divison(int a,int b)
 {
-	int a,b;
-	printf("Enter First Number :");
-	scanf("%d",&a);
-	printf("Enter Second Number :");
-	scanf("%d",&b);
 	printf("Divison Of Digits Is :%d",a/b);
 }
 int main()
 {
-	int ch,a,b;
+	int ch;
+	int x,y;
+	printf("Enter First Number :");
+	scanf("%d",&x);
+	printf("Enter Second Number :");
+	scanf("%d",&y);
 	printf("1.Addition\n2.Subtraction\n3.Multiplication\n4.Divison");
 	printf("\nEnter Your Choice :");
 	scanf("%d",&ch);
 	switch(ch)
 	{
 		case 1:
-		Addition();
+		Addition(x,y);
 			break;
 		case 2:
-			Subtraction();
+			Subtraction(x,y);
 			break;
 			case 3:
-				Multiplication();
+				Multiplication(x,y);
 				break;
 			case 4:
-				Divison();
+				Divison(x,y);
 				break;
 		default :
 			printf("Please Enter Valid Choice...");
