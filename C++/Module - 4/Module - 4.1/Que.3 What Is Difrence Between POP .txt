@@ -1,0 +1,8 @@
+Que.3 What Is Difrence Between POP And OOP ?
+
+Ans => POP :-
+		POP Stands For Procedural-Oriented Programming and 
+		it works for several things on depending th cntext programming.
+      	OOP:-
+		OOP Stands For Object-oriented Programming and 
+		it is a programming paradigm that focuses on modeling software using objects,classes,inheritance and polymorphism.  

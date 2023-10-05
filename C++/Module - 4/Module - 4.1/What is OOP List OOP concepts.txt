@@ -1,0 +1,10 @@
+What is OOP? List OOP concepts 
+
+Ans =>   OOP Stands For Object Oriented Programming. OOP Have 6 Main Concepts.
+
+	1.Classes
+	2.Objects
+	3.Encpsulation
+	4.Inheritance
+	5.Polymorphism
+	6.Abstraction
