@@ -1,0 +1,86 @@
+Q.What do you understand By Database.
+ANS ->  
+	The data and the DBMS, along with the applications that are associated with them, are referred to as a database system, often shortened to just database.
+Data within the most common types of databases in operation today is typically modeled in rows and columns in a series of tables to make processing and data querying efficient.
+The data can then be easily accessed, managed, modified, updated, controlled, and organized. Most databases use structured query language (SQL) for writing and querying data.
+
+Q.What is Normalization?
+ANS -> 
+		Normalization is the process to eliminate data redundancy and enhance data integrity in the table.
+		Normalization also helps to organize the data in the database. 
+		It is a multi-step process that sets the data into tabular form and removes the duplicated data from the relational tables.
+
+Q.What is Difference between DBMS and RDBMS?
+ANS -> 
+       DBMS                                   
+       - DBMS uses file system to store data,so there will be no relation between the tables.
+      - DBMS does not support distributed database.
+      - DBMS is meant to be for small organization and deal with small data.it supports single user.
+      - Examples of DBMS are file systems,xml etc.
+ RDBMS
+
+ - RDBMS supports distributed database.
+
+- RDBMS is designed to handle large amount of data. it supports multiple users.
+
+- Example of RDBMS are mysql, postgre, sql server, oracle etc.
+
+Q.What is MF Cod Rule of RDBMS Systems?
+ANS ->
+	 Codd’s rule in DBMS also known as Codd's 12 rules/commandments
+is a set of thirteen rules (numbered 0 to 12) 
+that define a database to be a correct Relational Database Management System (RDBMS). 
+If a database follows Codd's 12 rules, it is called a True relational database management system.
+
+Q.What do you understand By Data Redundancy?
+ANS ->
+	 Data redundancy occurs when the same piece of data exists in multiple places, 
+whereas data inconsistency is when the same data exists in different formats in multiple tables.
+Unfortunately, data redundancy can cause data inconsistency,
+which can provide a company with unreliable and/or meaningless information. 
+
+Q.What is DDL Interpreter?
+ANS ->
+	 DDL Interpreter DDL expands to Data Definition Language. 
+DDL Interpreter as the name suggests interprets the DDL statements such as schema definition statements like create, delete, etc.
+ The result of this interpretation is a set of a table that contains the meta-data which is stored in the data dictionary. 
+
+ Q.What is DML Compiler in SQL?
+ ANS ->
+	It processes the DML statements into low level instruction (machine language), so that they can be executed. 
+
+ Q.What is SQL Key Constraints writing an Example of SQL Key Constraints
+ ANS ->
+	 SQL constraints are used to specify rules for the data in a table.
+Constraints are used to limit the type of data that can go into a table. 
+This ensures the accuracy and reliability of the data in the table. 
+If there is any violation between the constraint and the data action, the action is aborted.
+Constraints can be column level or table level. 
+Column level constraints apply to a column, and table level constraints apply to the whole table.
+
+The following constraints are commonly used in SQL:
+
+NOT NULL - Ensures that a column cannot have a NULL value
+UNIQUE - Ensures that all values in a column are different
+PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
+FOREIGN KEY - Prevents actions that would destroy links between tables
+CHECK - Ensures that the values in a column satisfies a specific condition
+DEFAULT - Sets a default value for a column if no value is specified
+CREATE INDEX - Used to create and retrieve data from the database very quickly
+
+Q.What is save Point? How to create a save Point write a Query?
+ANS ->
+	 Savepoint is a command in SQL that is used with the rollback command.
+It is a command in Transaction Control Language that is used to mark the transaction in a table.
+Consider you are making a very long table, and you want to roll back only to a certain position in a table then; this can be achieved using the savepoint.
+If you made a transaction in a table, you could mark the transaction as a certain name, and later on, if you want to roll back to that point, you can do it easily by using the transaction's name.
+Savepoint is helpful when we want to roll back only a small part of a table and not the whole table. In simple words, we can say savepoint is a bookmark in SQL.
+
+Q.What is trigger and how to create a Trigger in SQL?
+Ans ->
+	 trigger is a stored procedure in a database that automatically invokes whenever a special event in the database occurs. 
+For example, a trigger can be invoked when a row is inserted into a specified table or when specific table columns are updated in simple words a trigger is a collection of SQL statements with particular names that are stored in system memory. It belongs to a specific class of stored procedures that are automatically invoked in response to database server events. 
+Every trigger has a table attached to it.
+Because a trigger cannot be called directly, unlike a stored procedure, it is referred to as a special procedure.
+A trigger is automatically called whenever a data modification event against a table takes place, which is the main distinction between a trigger and a procedure.
+On the other hand, a stored procedure must be called directly.
